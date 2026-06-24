@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Poppins", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background-color: #f8fafc;
+  background-image: 
+    radial-gradient(at 0% 0%, hsla(145, 100%, 80%, 0.15) 0px, transparent 50%),
+    radial-gradient(at 100% 0%, hsla(210, 100%, 80%, 0.15) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, hsla(110, 80%, 75%, 0.1) 0px, transparent 50%);
+  background-attachment: fixed;
+}
